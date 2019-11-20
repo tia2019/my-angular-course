@@ -9,7 +9,10 @@ import { Album } from "./albums/album.model";
 export class AppComponent implements OnInit{
   title = 'my-angular-albums';
   albumsArray: Album[];
+  titleCounter = 1;
   ngOnInit(): void {
+    const interval = setInterval(() => this.titleCounter++, 2000);
+    setTimeout(() => clearInterval(interval), 6000);
     this.albumsArray = [
       {
         id: 1,
