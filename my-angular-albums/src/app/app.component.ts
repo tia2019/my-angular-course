@@ -1,5 +1,4 @@
 import {Component, OnInit} from "@angular/core";
-import { Album } from "./albums/album.model";
 
 @Component({
   selector: 'app-root',
