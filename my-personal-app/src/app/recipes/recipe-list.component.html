@@ -1,0 +1,8 @@
+<div class="container-fluid">
+  <div class="card-deck">
+    <app-recipe-card
+      *ngFor="let recipe of recipesArray"
+      [recipe]="recipe"
+    ></app-recipe-card>
+  </div>
+</div>
