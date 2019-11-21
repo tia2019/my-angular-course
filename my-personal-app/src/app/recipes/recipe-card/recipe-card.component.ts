@@ -10,9 +10,13 @@ import { Recipe } from '../recipe.model';
 export class RecipeCardComponent implements OnInit {
   @Input()
   recipe: Recipe;
-  constructor() { }
+
+  constructor() {
+
+  }
 
   ngOnInit() {
+
   }
 
 }
