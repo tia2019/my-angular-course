@@ -28,7 +28,48 @@
       "cookTime": 20,
       "totalTime": 60,
       "name": "Spaghetti and Meatballs",
-      "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a55764/best-spaghetti-and-meatballs-recipe/"
+      "url": "https://www.delish.com/cooking/recipe-ideas/recipes/a55764/best-spaghetti-and-meatballs-recipe/",
+      "directions": [
+        "1: In a large pot of boiling salted water, cook spaghetti according to package instructions. Drain",
+        "2: Cook meatballs according to package instructions",
+        "3: Combine all ingredients in large pot. Mix together. Enjoy!"
+      ]
+    },
+    {
+      "id": 2,
+      "ingredients":{
+            "myIngredients": [
+              {
+                "id": 1,
+                "store": "https://www.harristeeter.com/",
+                "name": "Honey Graham Crackers",
+                "quantity": "8 Sheets"
+              },
+              {
+                "id": 2,
+                "store": "https://grocery.walmart.com/?&adid=22222222420313817745&wmlspartner=wmtlabs&wl0=e&wl1=g&wl2=c&wl3=355127893588&wl4=kwd-667579415&wl5=9009736&wl6=&wl7=&wl8=&wl9=&wl10=&wl11=&wl12=&wl13=&veh=sem_br&gclid=Cj0KCQiAq97uBRCwARIsADTziyZ9LNZO9JaxmKc924wwFBwkqu7vVAq_2zs5Q2V1kgXaT54mhP7te1MaAqzzEALw_wcB&gclsrc=aw.ds",
+                "name": "Hershey's Chocolate Bar",
+                "quantity": "One 4.4 Oz"
+              },
+              {
+                "id": 3,
+                "store": "https://www.harristeeter.com/",
+                "name": "Large Marshmallows",
+                "quantity": "8"
+              }
+            ]},
+      "servings": 8,
+      "prepTime": 5,
+      "cookTime": 10,
+      "totalTime": 15,
+      "name": "Classic S'mores",
+      "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/classic-smores-recipe-2108470",
+      "directions": [
+        "1: Heat a grill to medium-low heat",
+        "2: Halve each graham cracker sheet crosswise into 2 squares. Working with 1 or 2 s'mores at a time, place a square of graham cracker on a piece of foil and top with a portion of chocolate and a pinch of kosher salt. Place on the edge of the grill just until the chocolate is warmed and softened, about 30 seconds.",
+        "3: Take the graham cracker squares and chocolate to your grill (as the marshmallows toast they will become soft and start to droop off the skewer). Working with a few at a time, skewer a marshmallow on a long fork or metal skewer and hold over the heat about 2 inches above the grates. Toast, turning occasionally, until the marshmallow puffs and turns golden brown, 1 to 2 minutes.",
+        "4: Using the square of graham with the chocolate and a plain graham square, place the marshallow on the chocolate and, using the plain graham, squish the marshmallow down and pull off the skewer. Eat while it is warm and gooey and perfect."
+      ]
     }
   ]
 

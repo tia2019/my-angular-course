@@ -7,7 +7,10 @@
       <li>
         <h2>{{ recipe?.name }}</h2>
       </li>
-      <li>{{ recipe?.url }}</li>
+      <li><a href="{{ recipe?.url }}">Online Recipe</a></li>
+      <li>Yields: {{recipe.servings}}</li>
+      <li>Prep Time: {{recipe.prepTime}}</li>
+      <li>Cook Time: {{recipe.cookTime}}</li>
       <li>Total Time {{ recipe?.totalTime }} minutes</li>
     </ul>
   </div>
@@ -15,7 +18,14 @@
     <h4>Ingredients:</h4>
 
     <div *ngIf="recipe">
-        <div *ngFor="let i of recipe.ingredients.myIngredients">{{i.quantity}} {{ i.name}}</div>
+        <div *ngFor="let i of recipe.ingredients.myIngredients"><a href="{{i.store}}" target="_blank">{{i.quantity}} {{ i.name}}</a></div>
+    </div>
+
+    <br/>
+    <h4>Directions:</h4>
+
+    <div *ngIf="recipe">
+        <div *ngFor="let d of recipe.directions">{{d}} </div>
     </div>
   </div>
 
