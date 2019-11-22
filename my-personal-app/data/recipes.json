@@ -8,13 +8,19 @@
                 "id": 1,
                 "store": "https://www.harristeeter.com/",
                 "name": "Spaghetti",
-                "quantity": "1 LB"
+                "quantity": "1 Lb"
               },
               {
                 "id": 2,
                 "store": "https://www.harristeeter.com/",
-                "name": "Ground Beef",
-                "quantity": "1 Lb"
+                "name": "Meatballs",
+                "quantity": "16 0z"
+              },
+              {
+                "id": 3,
+                "store": "https://www.harristeeter.com/",
+                "name": "Tomato Sauce",
+                "quantity": "1 Jar"
               }
             ]},
       "servings": 4,

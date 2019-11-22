@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, Output } from '@angular/core';
 
 import { Recipe } from '../recipe.model';
 import { Ingredient } from 'src/app/ingredients/ingredient.model';
@@ -11,6 +11,7 @@ import { Ingredient } from 'src/app/ingredients/ingredient.model';
 export class RecipeCardComponent implements OnInit {
   @Input()
   recipe: Recipe;
+
   ingredientsArray: Ingredient[];
   constructor() {
 

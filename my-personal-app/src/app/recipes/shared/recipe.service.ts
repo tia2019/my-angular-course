@@ -9,8 +9,11 @@ import { Recipe } from '../recipe.model';
 export class RecipeService {
   url = "http://localhost:5556/recipes";
   constructor(private http: HttpClient) { }
-  getRecipes(): Observable<Recipe[]>{
+  getRecipes(): Observable<Recipe[]> {
     return this.http.get<Recipe[]>(this.url);
   }
 
+  getRecipeById(id: number): Observable<Recipe> {
+    return this.http.get<Recipe>(this.url + "/" + id);
+  }
 }

@@ -9,6 +9,7 @@ export interface Recipe {
   totalTime: number;
   name: string;
   url?: string;
+  directions: string[];
 
 
 }

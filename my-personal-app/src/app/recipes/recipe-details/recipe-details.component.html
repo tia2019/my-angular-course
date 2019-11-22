@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row my-3">
+    <img *ngIf="recipe" class="float-right img-fluid img-thumbnail" style=" max-width: 30%"
+      src="assets/img/{{ recipe.id }}.jpg" alt="{{ recipe?.name }}" />
+
+    <ul style="list-style: none;">
+      <li>
+        <h2>{{ recipe?.name }}</h2>
+      </li>
+      <li>{{ recipe?.url }}</li>
+      <li>Total Time {{ recipe?.totalTime }} minutes</li>
+    </ul>
+  </div>
+
+    <h4>Ingredients:</h4>
+
+    <div *ngIf="recipe">
+        <div *ngFor="let i of recipe.ingredients.myIngredients">{{i.quantity}} {{ i.name}}</div>
+    </div>
+  </div>
+
