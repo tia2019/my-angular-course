@@ -8,7 +8,7 @@
       <div class="scrollable">
         <h6 class="card-title">{{ recipe.name }}</h6>
         <h6 class="card-text">Total Time: {{ recipe.totalTime}}</h6>
-        <h6>Ingredients: <div *ngIf="recipe"> <div *ngFor="let i of recipe.ingredients.myIngredients" >{{ i.name}}</div></div></h6>
+        <h6>Ingredients: <div *ngIf="recipe"> <div *ngFor="let i of ingredientsArray.myIngredients" >{{ i.name}}</div></div></h6>
       </div>
     </div>
   </div>
