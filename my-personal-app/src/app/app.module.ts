@@ -10,12 +10,11 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { SavedComponent } from './saved/saved.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { RecipesModule } from './recipes/recipes.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RecipeListComponent,
-    RecipeCardComponent,
     WelcomeComponent,
     NavbarComponent,
     SavedComponent,
@@ -24,7 +23,8 @@ import { NotfoundComponent } from './notfound/notfound.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    RecipesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
